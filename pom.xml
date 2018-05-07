@@ -8,11 +8,6 @@
 	<packaging>jar</packaging>
 	<name>my.initial.project.selenium.jenkins</name>
 	<url>http://maven.apache.org</url>
-
-	<properties>
-		<suiteXmlFile>testng.xml</suiteXmlFile>
-		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-	</properties>
 	<build>
 		<plugins>
 			<plugin>
@@ -22,7 +17,7 @@
 				<configuration>
 					<testFailureIgnore>true</testFailureIgnore>
 					<suiteXmlFiles>
-						<suiteXmlFile>testng.xml</suiteXmlFile>
+						<suiteXmlFile>testng2.xml</suiteXmlFile>
 					</suiteXmlFiles>
 				</configuration>
 			</plugin>
