@@ -8,6 +8,7 @@ public class firstTests {
 
 	@Test
 	public void openBrowser() {
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\bantam\\Downloads\\eclipse\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://www.google.pl");
 		
