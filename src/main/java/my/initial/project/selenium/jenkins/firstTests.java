@@ -5,12 +5,16 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
 
 public class firstTests {
-
+	WebDriver driver = new ChromeDriver();
 	@Test
 	public void openBrowser() {
 		System.setProperty("webdriver.chrome.driver", "C:\\Users\\bantam\\Downloads\\eclipse\\chromedriver.exe");
-		WebDriver driver = new ChromeDriver();
+		
 		driver.get("https://www.google.pl");
 		
+	}
+	
+	public void verifyTitle() {
+		driver.getTitle();
 	}
 }
