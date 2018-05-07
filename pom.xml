@@ -10,7 +10,7 @@
 	<url>http://maven.apache.org</url>
 
 	<properties>
-		<suiteXmlFile>testng2.xml</suiteXmlFile>
+		<suiteXmlFile>testng.xml</suiteXmlFile>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
 	<build>
