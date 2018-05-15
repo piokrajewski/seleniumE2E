@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="6692" started-at="2018-05-12T21:43:01Z" finished-at="2018-05-12T21:43:08Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="6692" started-at="2018-05-12T21:43:01Z" finished-at="2018-05-12T21:43:08Z">
+      <class name="my.initial.project.selenium.jenkins.firstTests2">
+        <test-method status="PASS" signature="openBrowser()[pri:1, instance:my.initial.project.selenium.jenkins.firstTests2@7e7be63f]" name="openBrowser" duration-ms="4634" started-at="2018-05-12T21:43:01Z" finished-at="2018-05-12T21:43:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="login()[pri:2, instance:my.initial.project.selenium.jenkins.firstTests2@7e7be63f]" name="login" duration-ms="447" started-at="2018-05-12T21:43:06Z" finished-at="2018-05-12T21:43:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="getPageTitle()[pri:3, instance:my.initial.project.selenium.jenkins.firstTests2@7e7be63f]" name="getPageTitle" duration-ms="1568" started-at="2018-05-12T21:43:06Z" finished-at="2018-05-12T21:43:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getPageTitle -->
+      </class> <!-- my.initial.project.selenium.jenkins.firstTests2 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
