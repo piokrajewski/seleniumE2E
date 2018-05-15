@@ -2,5 +2,9 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Suite">
   <test thread-count="5" name="Test">
+  <classes>
+      <class name="my.initial.project.selenium.jenkins.BSTNG"/>
+      <class name="my.initial.project.selenium.jenkins.stepDef"/>
+    </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
