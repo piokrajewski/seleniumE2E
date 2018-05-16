@@ -1,6 +1,7 @@
 package my.initial.project.selenium.jenkins;
 
 
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
@@ -10,12 +11,11 @@ import cucumber.api.java.en.When;
 
 
 public class StepDefinitions {
-	
-WebDriver driver = new ChromeDriver();
+	WebDriver driver = new ChromeDriver();
 	
 	@When("^I open the browser$")
 	public void i_open_the_browser() throws Throwable {
-		System.setProperty("webdriver.chrome.driver", "\\usr\\lib\\chromium-browser\\chromedriver"); WebDriver driver = new ChromeDriver();
+		System.setProperty("webdriver.chrome.driver", "/usr/local/bin");
 	 driver.get("https://www.google.pl");
 	}
 

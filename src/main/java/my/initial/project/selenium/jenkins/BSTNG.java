@@ -16,13 +16,16 @@ public class BSTNG {
 	public void test() throws MalformedURLException {
 
 		DesiredCapabilities caps = new DesiredCapabilities();
-		caps.setPlatform(Platform.WINDOWS);
+		caps.setPlatform(Platform.LINUX);
 		caps.setBrowserName("firefox");
 
 		String stringUrl = "https://piotrkrajewski1:opzWrgpq7ZzQ1mRxhR6R@hub-cloud.browserstack.com/wd/hub";
 		URL serverUrl = new URL(stringUrl);
 		
 		WebDriver driver = new RemoteWebDriver(serverUrl,caps);
+		driver.get("http://www.google.pl");
 		
 	}
+	
+	
 }
