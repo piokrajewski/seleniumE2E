@@ -3,11 +3,13 @@
 <suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite]">
   <test thread-count="5" verbose="0" name="Test(failed)">
     <classes>
-      <class name="my.initial.project.selenium.jenkins.test">
+      <class name="my.initial.project.selenium.jenkins.TestRunner">
         <methods>
-          <include name="test"/>
+          <include name="setUpClass"/>
+          <include name="feature" invocation-numbers="0"/>
+          <include name="tearDownClass"/>
         </methods>
-      </class> <!-- my.initial.project.selenium.jenkins.test -->
+      </class> <!-- my.initial.project.selenium.jenkins.TestRunner -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

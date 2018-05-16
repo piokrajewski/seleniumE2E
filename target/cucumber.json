@@ -12,8 +12,9 @@
         "steps": [
           {
             "result": {
-              "duration": 7643219340,
-              "status": "passed"
+              "duration": 177737818,
+              "error_message": "java.lang.IllegalStateException: The driver executable does not exist: C:\\usr\\local\\bin\\chromedriver\r\n\tat com.google.common.base.Preconditions.checkState(Preconditions.java:585)\r\n\tat org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:136)\r\n\tat org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:131)\r\n\tat org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:32)\r\n\tat org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:137)\r\n\tat org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:339)\r\n\tat org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:88)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:157)\r\n\tat my.initial.project.selenium.jenkins.StepDefinitions.i_open_browser(StepDefinitions.java:22)\r\n\tat ✽.When I open browser(heh.feature:4)\r\n",
+              "status": "failed"
             },
             "line": 4,
             "name": "I open browser",
@@ -21,19 +22,6 @@
               "location": "StepDefinitions.i_open_browser()"
             },
             "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 642505,
-              "error_message": "java.lang.NullPointerException\r\n\tat my.initial.project.selenium.jenkins.StepDefinitions.page_title_is_displayed(StepDefinitions.java:24)\r\n\tat ✽.Then Page title is displayed(heh.feature:5)\r\n",
-              "status": "failed"
-            },
-            "line": 5,
-            "name": "Page title is displayed",
-            "match": {
-              "location": "StepDefinitions.page_title_is_displayed()"
-            },
-            "keyword": "Then "
           }
         ]
       }

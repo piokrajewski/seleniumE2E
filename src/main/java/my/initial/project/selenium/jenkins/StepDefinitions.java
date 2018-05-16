@@ -22,9 +22,4 @@ public class StepDefinitions {
 		WebDriver driver = new ChromeDriver(options); 
 	    driver.get("https://www.google.pl");
 	}
-
-	@Then("^Page title is displayed$")
-	public void page_title_is_displayed() throws Throwable {
-	    driver.getTitle();
-	}
 }
