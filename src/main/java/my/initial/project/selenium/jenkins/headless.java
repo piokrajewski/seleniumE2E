@@ -22,6 +22,7 @@ public class headless {
                 "--disable-gpu",
                 "--remote-debugging-port=9222"
         );
+        chromeOptions.setHeadless(true);
         WebDriver driver = new ChromeDriver(chromeOptions);
         driver.navigate().to("https://www.facebook.com");
         String actual = driver.getTitle();
