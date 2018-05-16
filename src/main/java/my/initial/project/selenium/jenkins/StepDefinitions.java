@@ -18,7 +18,7 @@ public class StepDefinitions {
 	public void i_open_browser() throws Throwable {
 		System.setProperty("webdriver.chrome.driver", "/usr/local/bin/chromedriver");
 		ChromeOptions options = new ChromeOptions();
-		options.addArguments("--no--sandbox");
+		options.addArguments("--no-sandbox", "--disable-setuid-sandbox", "--headless", "--disable-gpu", "--remote-debugging-port=9222");
 		WebDriver driver = new ChromeDriver(options); 
 	    driver.get("https://www.google.pl");
 	}
