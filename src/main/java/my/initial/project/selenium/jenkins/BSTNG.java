@@ -11,7 +11,7 @@ import org.testng.annotations.Test;
 
 public class BSTNG {
 
-	
+	WebDriver driver;
 	@Test
 	public void test() throws MalformedURLException {
 
@@ -22,10 +22,7 @@ public class BSTNG {
 		String stringUrl = "https://piotrkrajewski1:opzWrgpq7ZzQ1mRxhR6R@hub-cloud.browserstack.com/wd/hub";
 		URL serverUrl = new URL(stringUrl);
 		
-		
 		WebDriver driver = new RemoteWebDriver(serverUrl,caps);
-		driver.get("https://www.google.pl");
-		driver.quit();
 		
 	}
 }

@@ -1,5 +1,6 @@
 package my.initial.project.selenium.jenkins;
 
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
@@ -8,13 +9,13 @@ import cucumber.api.java.en.When;
 
 
 
-public class StepDefinitions {
+public class StepDefinitions extends BSTNG {
 	
-	WebDriver driver = new ChromeDriver();
+WebDriver driver = new ChromeDriver();
 	
 	@When("^I open the browser$")
 	public void i_open_the_browser() throws Throwable {
-	 driver.get("https://www.google.pl");
+	 driver.get("https://www.wp.pl");
 	}
 
 	@Then("^Page title should be displayed$")

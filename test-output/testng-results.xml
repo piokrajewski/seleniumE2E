@@ -1,25 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="6692" started-at="2018-05-12T21:43:01Z" finished-at="2018-05-12T21:43:08Z">
+  <suite name="Suite" duration-ms="69084" started-at="2018-05-16T08:14:55Z" finished-at="2018-05-16T08:16:05Z">
     <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:my.initial.project.selenium.jenkins.TestRunner@4b4523f8]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
     </groups>
-    <test name="Default test" duration-ms="6692" started-at="2018-05-12T21:43:01Z" finished-at="2018-05-12T21:43:08Z">
-      <class name="my.initial.project.selenium.jenkins.firstTests2">
-        <test-method status="PASS" signature="openBrowser()[pri:1, instance:my.initial.project.selenium.jenkins.firstTests2@7e7be63f]" name="openBrowser" duration-ms="4634" started-at="2018-05-12T21:43:01Z" finished-at="2018-05-12T21:43:06Z">
+    <test name="Test" duration-ms="69084" started-at="2018-05-16T08:14:55Z" finished-at="2018-05-16T08:16:05Z">
+      <class name="my.initial.project.selenium.jenkins.TestRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:my.initial.project.selenium.jenkins.TestRunner@4b4523f8]" name="setUpClass" is-config="true" duration-ms="329" started-at="2018-05-16T08:14:55Z" finished-at="2018-05-16T08:14:56Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- openBrowser -->
-        <test-method status="PASS" signature="login()[pri:2, instance:my.initial.project.selenium.jenkins.firstTests2@7e7be63f]" name="login" duration-ms="447" started-at="2018-05-12T21:43:06Z" finished-at="2018-05-12T21:43:06Z">
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:my.initial.project.selenium.jenkins.TestRunner@4b4523f8]" name="feature" duration-ms="68593" started-at="2018-05-16T08:14:56Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2018-05-16T08:16:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Test]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- login -->
-        <test-method status="PASS" signature="getPageTitle()[pri:3, instance:my.initial.project.selenium.jenkins.firstTests2@7e7be63f]" name="getPageTitle" duration-ms="1568" started-at="2018-05-12T21:43:06Z" finished-at="2018-05-12T21:43:08Z">
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:my.initial.project.selenium.jenkins.TestRunner@4b4523f8]" name="tearDownClass" is-config="true" duration-ms="35" started-at="2018-05-16T08:16:05Z" finished-at="2018-05-16T08:16:05Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- getPageTitle -->
-      </class> <!-- my.initial.project.selenium.jenkins.firstTests2 -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- my.initial.project.selenium.jenkins.TestRunner -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
