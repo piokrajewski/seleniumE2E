@@ -10,7 +10,7 @@ public class firstTests {
 	public void openBrowser() {
 		System.setProperty("webdriver.chrome.driver", "/usr/lib/chromium-browser/");
 		
-		driver.get("https://www.google.pl");
+		driver.get("https://www.youtube.pl");
 		
 	}
 

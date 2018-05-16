@@ -8,7 +8,7 @@ import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-		features = {"feature/","classpath:my.initial.project.selenium.jenkins.Def"},
+		features = {"feature/","classpath:my.initial.project.selenium.jenkins.firstTests"},
 		format = {"pretty","json:target/cucumber.json"}
 		)
 
