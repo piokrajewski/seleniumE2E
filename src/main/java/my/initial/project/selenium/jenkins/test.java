@@ -9,7 +9,7 @@ public class test {
 	@Test
 	public void test() {
 		System.setProperty("webdriver.chrome.driver", "/usr/local/bin");
-		WebDriver driver = new ChromeDriver();
+		WebDriver driver = new ChromeDriver(); //
 		driver.get("https://www.google.pl");
 	}
 }
