@@ -1,13 +1,12 @@
 package my.initial.project.selenium.jenkins;
 
-import java.io.IOException;
-
 import org.junit.Assert;
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.testng.annotations.Test;
+
+import java.io.IOException;
 
 public class headless {
 
@@ -17,6 +16,7 @@ public class headless {
 	  {
 	    ChromeOptions chromeOptions = new ChromeOptions();
 	    System.setProperty("webdriver.chrome.driver", "/usr/local/bin/chromedriver");
+	    chromeOptions.setBinary("/usr/bin/google-chrome");
 	    chromeOptions.addArguments("--headless", "window-size=1024,768", "--no-sandbox");
 	    chromeOptions.addArguments("--disable-gpu");
 	    WebDriver driver = new ChromeDriver(chromeOptions);
