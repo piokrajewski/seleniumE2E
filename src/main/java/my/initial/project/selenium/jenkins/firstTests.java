@@ -13,8 +13,5 @@ public class firstTests {
 		driver.get("https://www.google.pl");
 		
 	}
-	
-	public void verifyTitle() {
-		driver.getTitle();
-	}
+
 }
