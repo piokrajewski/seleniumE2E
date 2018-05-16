@@ -7,7 +7,7 @@ import cucumber.api.testng.AbstractTestNGCucumberTests;
 
 
 @CucumberOptions(
-		features = {"feature/","classpath:my.initial.project.selenium.jenkins.firstTests"},
+		features = {"feature/","classpath:my.initial.project.selenium.jenkins.Def"},
 		format = {"pretty","json:target/cucumber.json"}
 		)
 

@@ -2,16 +2,34 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Surefire suite" duration-ms="114" started-at="2018-05-16T15:49:08Z" finished-at="2018-05-16T15:49:08Z">
+  <suite name="Suite" duration-ms="9435" started-at="2018-05-16T15:56:53Z" finished-at="2018-05-16T15:57:02Z">
     <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:my.initial.project.selenium.jenkins.TestRunner@7c16905e]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
     </groups>
-    <test name="Surefire test" duration-ms="114" started-at="2018-05-16T15:49:08Z" finished-at="2018-05-16T15:49:08Z">
-      <class name="my.initial.project.selenium.jenkins.AppTest">
-        <test-method status="PASS" signature="testApp()" name="testApp" duration-ms="44" started-at="2018-05-16T15:49:08Z" finished-at="2018-05-16T15:49:08Z">
+    <test name="Test" duration-ms="9435" started-at="2018-05-16T15:56:53Z" finished-at="2018-05-16T15:57:02Z">
+      <class name="my.initial.project.selenium.jenkins.TestRunner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:my.initial.project.selenium.jenkins.TestRunner@7c16905e]" name="setUpClass" is-config="true" duration-ms="252" started-at="2018-05-16T15:56:53Z" finished-at="2018-05-16T15:56:53Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testApp -->
-      </class> <!-- my.initial.project.selenium.jenkins.AppTest -->
-    </test> <!-- Surefire test -->
-  </suite> <!-- Surefire suite -->
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:my.initial.project.selenium.jenkins.TestRunner@7c16905e]" name="feature" duration-ms="9079" started-at="2018-05-16T15:56:53Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2018-05-16T15:57:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[google homepage]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:my.initial.project.selenium.jenkins.TestRunner@7c16905e]" name="tearDownClass" is-config="true" duration-ms="19" started-at="2018-05-16T15:57:02Z" finished-at="2018-05-16T15:57:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- my.initial.project.selenium.jenkins.TestRunner -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

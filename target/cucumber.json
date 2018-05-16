@@ -4,55 +4,43 @@
     "elements": [
       {
         "line": 3,
-        "name": "test",
+        "name": "Openn browser",
         "description": "",
-        "id": "test;test",
+        "id": "google-homepage;openn-browser",
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 10349158867,
+              "duration": 9050339137,
               "status": "passed"
             },
             "line": 4,
-            "name": "I open the browser",
+            "name": "I open browser",
             "match": {
-              "location": "StepDefinitions.i_open_the_browser()"
+              "location": "Def.i_open_browser()"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 7577659,
+              "duration": 9572400,
               "status": "passed"
             },
             "line": 5,
-            "name": "Page title should be displayed",
+            "name": "Page title is displayed",
             "match": {
-              "location": "StepDefinitions.page_title_should_be_displayed()"
+              "location": "Def.page_title_is_displayed()"
             },
             "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 17962,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "Browser should be shut down",
-            "match": {
-              "location": "StepDefinitions.browser_should_be_shut_down()"
-            },
-            "keyword": "And "
           }
         ]
       }
     ],
-    "name": "Test",
+    "name": "google homepage",
     "description": "",
-    "id": "test",
+    "id": "google-homepage",
     "keyword": "Feature",
-    "uri": "cuc.feature"
+    "uri": "new.feature"
   }
 ]
