@@ -11,19 +11,19 @@ import org.testng.annotations.Test;
 
 public class headless {
 
-	
-	  @Test  
-	  public void createChromeDriverHeadless() throws IOException  
-	  {  
-	    ChromeOptions chromeOptions = new ChromeOptions();  
-	    System.setProperty("webdriver.chrome.driver", "/usr/local/bin/chromedriver");  
-	    chromeOptions.addArguments("--headless");  
-	    chromeOptions.addArguments("--disable-gpu");  
-	    WebDriver driver = new ChromeDriver(chromeOptions);  
-	    driver.navigate().to("https://www.facebook.com");   
+
+	  @Test
+	  public void createChromeDriverHeadless() throws IOException
+	  {
+	    ChromeOptions chromeOptions = new ChromeOptions();
+	    System.setProperty("webdriver.chrome.driver", "/usr/local/bin/chromedriver");
+	    chromeOptions.addArguments("--headless", "window-size=1024,768", "--no-sandbox");
+	    chromeOptions.addArguments("--disable-gpu");
+	    WebDriver driver = new ChromeDriver(chromeOptions);
+	    driver.navigate().to("https://www.facebook.com");
 	    String actual = driver.getTitle();
 	    Assert.assertEquals("Google", actual);
-	    driver.quit();  
-	  }  
-	   
+	    driver.quit();
+	  }
+
 }
