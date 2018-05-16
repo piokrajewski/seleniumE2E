@@ -25,6 +25,6 @@ WebDriver driver = new ChromeDriver();
 
 	@Then("^Browser should be shut down$")
 	public void browser_should_be_shut_down() throws Throwable {
-	    driver.close();
+	   
 	}
 }
