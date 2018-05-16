@@ -13,7 +13,7 @@ public class test {
 		System.setProperty("webdriver.chrome.driver", "/usr/local/bin/chromedriver");
 		ChromeOptions options = new ChromeOptions();
 		options.addArguments("--no--sandbox");
-		WebDriver driver = new ChromeDriver(options); 
+		WebDriver driver = new ChromeDriver(options); //
 		driver.get("https://www.google.pl");
 		String actual = driver.getTitle();
 		Assert.assertEquals("Google", actual);
