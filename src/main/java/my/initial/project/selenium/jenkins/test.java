@@ -8,7 +8,7 @@ import org.testng.annotations.Test;
 public class test {
 	@Test
 	public void test() {
-		System.setProperty("webdriver.chrome.driver", "/usr/local/bin");
+		//System.setProperty("webdriver.chrome.driver", "/usr/local/bin");
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://www.google.pl");
 	}
