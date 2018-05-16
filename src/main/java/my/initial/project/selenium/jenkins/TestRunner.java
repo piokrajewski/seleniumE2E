@@ -8,9 +8,8 @@ import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-		features = {"feature/"},
-		format = {"pretty","json:target/cucumber.json"},
-		glue="classpath:my.initial.project.selenium.jenkins.StepDefinitions"
+		features = {"feature/","classpath:my.initial.project.selenium.jenkins.StepDefinitions"},
+		format = {"pretty","json:target/cucumber.json"}
 		)
 
 public class TestRunner extends AbstractTestNGCucumberTests {

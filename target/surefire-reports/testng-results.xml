@@ -2,19 +2,19 @@
 <testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="18551" started-at="2018-05-16T08:41:45Z" finished-at="2018-05-16T08:42:04Z">
+  <suite name="Suite" duration-ms="8503" started-at="2018-05-16T10:27:35Z" finished-at="2018-05-16T10:27:43Z">
     <groups>
       <group name="cucumber">
-        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:my.initial.project.selenium.jenkins.TestRunner@46d56d67]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:my.initial.project.selenium.jenkins.TestRunner@475530b9]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test name="Test" duration-ms="18551" started-at="2018-05-16T08:41:45Z" finished-at="2018-05-16T08:42:04Z">
+    <test name="Test" duration-ms="8503" started-at="2018-05-16T10:27:35Z" finished-at="2018-05-16T10:27:43Z">
       <class name="my.initial.project.selenium.jenkins.TestRunner">
-        <test-method status="PASS" signature="setUpClass()[pri:0, instance:my.initial.project.selenium.jenkins.TestRunner@46d56d67]" name="setUpClass" is-config="true" duration-ms="340" started-at="2018-05-16T08:41:45Z" finished-at="2018-05-16T08:41:45Z">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:my.initial.project.selenium.jenkins.TestRunner@475530b9]" name="setUpClass" is-config="true" duration-ms="306" started-at="2018-05-16T10:27:35Z" finished-at="2018-05-16T10:27:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method status="FAIL" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:my.initial.project.selenium.jenkins.TestRunner@46d56d67]" name="feature" duration-ms="18073" started-at="2018-05-16T08:41:45Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2018-05-16T08:42:04Z">
+        <test-method status="FAIL" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:my.initial.project.selenium.jenkins.TestRunner@475530b9]" name="feature" duration-ms="8073" started-at="2018-05-16T10:27:35Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2018-05-16T10:27:43Z">
           <params>
             <param index="0">
               <value>
@@ -33,7 +33,7 @@ Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.1
 System info: host: 'BANTAM-PC', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_144'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
 Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552522 (437e6fbedfa876..., userDataDir: C:\Users\bantam\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.139, webStorageEnabled: true}
-Session ID: e3902aa46b0e538a6809410627db8820]]>
+Session ID: ef3446d53e8d21bbd9db20504bdba2e7]]>
             </message>
             <full-stacktrace>
               <![CDATA[cucumber.runtime.CucumberException: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
@@ -45,7 +45,7 @@ Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.1
 System info: host: 'BANTAM-PC', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_144'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
 Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552522 (437e6fbedfa876..., userDataDir: C:\Users\bantam\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.139, webStorageEnabled: true}
-Session ID: e3902aa46b0e538a6809410627db8820
+Session ID: ef3446d53e8d21bbd9db20504bdba2e7
 at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:69)
 at cucumber.api.testng.AbstractTestNGCucumberTests.feature(AbstractTestNGCucumberTests.java:21)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -86,7 +86,7 @@ Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.1
 System info: host: 'BANTAM-PC', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_144'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
 Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552522 (437e6fbedfa876..., userDataDir: C:\Users\bantam\AppData\Loc...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.139, webStorageEnabled: true}
-Session ID: e3902aa46b0e538a6809410627db8820
+Session ID: ef3446d53e8d21bbd9db20504bdba2e7
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -109,7 +109,7 @@ at ✽.Then Page title should be displayed(cuc.feature:5)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- feature -->
-        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:my.initial.project.selenium.jenkins.TestRunner@46d56d67]" name="tearDownClass" is-config="true" duration-ms="26" started-at="2018-05-16T08:42:04Z" finished-at="2018-05-16T08:42:04Z">
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:my.initial.project.selenium.jenkins.TestRunner@475530b9]" name="tearDownClass" is-config="true" duration-ms="22" started-at="2018-05-16T10:27:43Z" finished-at="2018-05-16T10:27:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
