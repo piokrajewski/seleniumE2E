@@ -19,11 +19,13 @@ public class headless {
 
     @Test
     public void runFirefoxHeadless() throws IOException {
-        FirefoxBinary firefoxBinary = new FirefoxBinary();
-        firefoxBinary.addCommandLineOptions("--headless");
+//        FirefoxBinary firefoxBinary = new FirefoxBinary();
+//        firefoxBinary.addCommandLineOptions("--headless");
         System.setProperty("webdriver.gecko.driver", "/usr/local/bin/geckodriver");
         FirefoxOptions firefoxOptions = new FirefoxOptions();
-        firefoxOptions.setBinary(firefoxBinary);
+//        firefoxOptions.setBinary(firefoxBinary);
+        firefoxOptions.setBinary("/usr/bin/firefox");
+        firefoxOptions.addArguments("--headless");
         FirefoxDriver driver = new FirefoxDriver(firefoxOptions);
         try {
             driver.get("http://www.google.com");
