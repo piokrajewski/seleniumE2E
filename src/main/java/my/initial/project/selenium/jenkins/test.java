@@ -10,7 +10,7 @@ import org.testng.annotations.Test;
 public class test {
 	@Test
 	public void test() {
-		//System.setProperty("webdriver.chrome.driver", "/usr/local/bin/chromedriver");
+		System.setProperty("webdriver.chrome.driver", "/usr/local/bin/chromedriver");
 		ChromeOptions options = new ChromeOptions();
 		options.addArguments("--no--sandbox");
 		WebDriver driver = new ChromeDriver(options); 
