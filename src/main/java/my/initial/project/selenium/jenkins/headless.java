@@ -29,13 +29,9 @@ public class headless {
             driver.get("http://www.google.com");
             driver.manage().timeouts().implicitlyWait(4,
                     TimeUnit.SECONDS);
-            WebElement queryBox = driver.findElement(By.name("q"));
-            queryBox.sendKeys("headless firefox");
-            WebElement searchBtn = driver.findElement(By.name("btnK"));
-            searchBtn.click();
-            WebElement iresDiv = driver.findElement(By.id("ires"));
-            iresDiv.findElements(By.tagName("a")).get(0).click();
-            System.out.println(driver.getPageSource());
+            String actual = driver.getTitle();
+            Assert.assertEquals("Google", actual);
+            driver.quit();
         } finally {
             driver.quit();
         }
