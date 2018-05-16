@@ -9,9 +9,9 @@ import cucumber.api.java.en.When;
 
 
 
-public class StepDefinitions extends BSTNG {
+public class StepDefinitions {
 	
-WebDriver driver;
+WebDriver driver = new ChromeDriver();
 	
 	@When("^I open the browser$")
 	public void i_open_the_browser() throws Throwable {
