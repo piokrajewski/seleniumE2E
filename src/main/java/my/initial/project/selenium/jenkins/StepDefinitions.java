@@ -15,7 +15,7 @@ WebDriver driver = new ChromeDriver();
 	
 	@When("^I open the browser$")
 	public void i_open_the_browser() throws Throwable {
-		System.setProperty("webdriver.chrome.driver", "/usr/lib/chromedriver"); WebDriver driver = new ChromeDriver();
+		System.setProperty("webdriver.chrome.driver", "\\usr\\lib\\chromium-browser\\chromedriver"); WebDriver driver = new ChromeDriver();
 	 driver.get("https://www.google.pl");
 	}
 
