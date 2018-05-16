@@ -11,26 +11,16 @@ import cucumber.api.java.en.When;
 
 
 public class StepDefinitions {
-	
 	WebDriver driver;
 	
-	public StepDefinitions() {
-		System.setProperty("webdriver.chrome.driver", "/usr/local/bin");
-		 driver = new ChromeDriver();
-	}
-	
-	@When("^I open the browser$")
-	public void i_open_the_browser() throws Throwable {
-	 driver.get("https://www.google.pl");
+	@When("^I open browser$")
+	public void i_open_browser() throws Throwable {
+	    WebDriver driver = new ChromeDriver();
+	    driver.get("https://www.google.pl");
 	}
 
-	@Then("^Page title should be displayed$")
-	public void page_title_should_be_displayed() throws Throwable {
+	@Then("^Page title is displayed$")
+	public void page_title_is_displayed() throws Throwable {
 	    driver.getTitle();
-	}
-
-	@Then("^Browser should be shut down$")
-	public void browser_should_be_shut_down() throws Throwable {
-	   
 	}
 }

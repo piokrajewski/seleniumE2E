@@ -12,25 +12,26 @@
         "steps": [
           {
             "result": {
-              "duration": 14879200851,
+              "duration": 7643219340,
               "status": "passed"
             },
             "line": 4,
             "name": "I open browser",
             "match": {
-              "location": "Def.i_open_browser()"
+              "location": "StepDefinitions.i_open_browser()"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 6392206,
-              "status": "passed"
+              "duration": 642505,
+              "error_message": "java.lang.NullPointerException\r\n\tat my.initial.project.selenium.jenkins.StepDefinitions.page_title_is_displayed(StepDefinitions.java:24)\r\n\tat ✽.Then Page title is displayed(heh.feature:5)\r\n",
+              "status": "failed"
             },
             "line": 5,
             "name": "Page title is displayed",
             "match": {
-              "location": "Def.page_title_is_displayed()"
+              "location": "StepDefinitions.page_title_is_displayed()"
             },
             "keyword": "Then "
           }
@@ -41,6 +42,6 @@
     "description": "",
     "id": "google-homepage",
     "keyword": "Feature",
-    "uri": "new.feature"
+    "uri": "heh.feature"
   }
 ]
