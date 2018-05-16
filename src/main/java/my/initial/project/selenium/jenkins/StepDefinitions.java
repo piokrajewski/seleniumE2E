@@ -15,7 +15,8 @@ WebDriver driver = new ChromeDriver();
 	
 	@When("^I open the browser$")
 	public void i_open_the_browser() throws Throwable {
-	 driver.get("https://www.wp.pl");
+	System.setProperty("webdriver.chrome.driver", "/usr/lib/chromium-browser/");
+	 driver.get("https://www.google.pl");
 	}
 
 	@Then("^Page title should be displayed$")
